@@ -34,7 +34,7 @@ or If you want to deploy your Smart contract you can also pass Enviorment Parame
 
     docker run -it -e POLYGONSCAN_API_KEY=<your_polygonscan_api_key> -e ALCHEMY_POLYGON_API_KEY=<your_alchemy_private_key> -e PRIVATE_KEY=<your_private_key> hardhat-setup
 
---
+---
 
 ### For Node Server
 
@@ -140,9 +140,9 @@ or, also used force image delete command
 
     docker rmi <image_id> --force
 
---
+---
 
-### Facing Error
+### Facing Some Error with Solution
 
 If you encounter the error "ERROR: Get https://registry-1.docker.io/v2/: net/http: TLS handshake timeout in Docker," run these commands:
 
