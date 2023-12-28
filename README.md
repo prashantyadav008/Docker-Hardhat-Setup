@@ -1,3 +1,7 @@
+# Install and Setup Docker
+
+Install Docker Desktop by Official [DOCKER WEBSITE](https://docs.docker.com/desktop/install/windows-install/) and Install and Setup in your Local System.
+
 # Docker Image of Basic Hardhat-Setup
 
 To set up your Hardhat environment, clone the Hardhat setup repository. You can either create your own Hardhat setup from scratch or clone it from my ["Hardhat-Setup"](https://github.com/prashantyadav008/Hardhat-Setup) repository. Navigate to the project directory:
@@ -146,10 +150,10 @@ or, also used force image delete command
 
 If you encounter the error "ERROR: Get https://registry-1.docker.io/v2/: net/http: TLS handshake timeout in Docker," run these commands:
 
-sudo mkdir -p /etc/systemd/system/docker.service.d
+    sudo mkdir -p /etc/systemd/system/docker.service.d
 
-sudo vi /etc/systemd/system/docker.service.d/http-proxy.conf
+    sudo vi /etc/systemd/system/docker.service.d/http-proxy.conf
 
-sudo systemctl daemon-reload
+    sudo systemctl daemon-reload
 
-sudo systemctl restart docker
+    sudo systemctl restart docker
