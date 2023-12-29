@@ -18,7 +18,7 @@ After successfully running the test cases, create a Dockerfile and a .dockerigno
 
     touch Dockerfile .dockerignore
 
-Add the necessary Dockerfile scripting and add Ignore file name into .dockerignore file (i already addres).
+Add the necessary Dockerfile scripting and add Ignore file name into .dockerignore file (I already added you can use mine).
 
 Next, build your project. You can give any name to your project ("<project_name>"). I'll use "hardhat-setup" as an example. The following command creates a Docker image on your system with the specified tag and path (-t stands for tag) and (. is for you file path):
 
